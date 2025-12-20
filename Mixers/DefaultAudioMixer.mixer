@@ -12,8 +12,10 @@ AudioMixerSnapshotController:
   m_FloatValues:
     a167a4238608ebe46a18d41952e6f6bb: -80
     a973c776455edb94b84e7d6f5b7535bf: 0
+    7b13235ad7963d14a8b54ac2933f600f: -80
     a7d5347ac81a2f34c891fe6e16b90a3f: -80
     6a1277ade53aa1e41afc810d4d90da98: -80
+    0347e0feffe4cd648bc7f9e675101e89: -80
   m_TransitionOverrides: {}
 --- !u!243 &-7367064134032212960
 AudioMixerGroupController:
@@ -63,6 +65,25 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -5453342121241369110}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &-4190928317929746122
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Footstep
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: d6374bdf927d021409308a14413b62d0
+  m_Children: []
+  m_Volume: 0347e0feffe4cd648bc7f9e675101e89
+  m_Pitch: baa4fa887e0c73644b6ea2f937ccf5a6
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: 2189429248467026882}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -121,6 +142,8 @@ AudioMixerController:
     name: AmbientEffectsVolume
   - guid: a973c776455edb94b84e7d6f5b7535bf
     name: BackgroundVolume
+  - guid: 0347e0feffe4cd648bc7f9e675101e89
+    name: FootstepVolume
   - guid: 7b13235ad7963d14a8b54ac2933f600f
     name: GamepadVolume
   - guid: 22526846bfefc9d439a4bf2963f10e65
@@ -137,6 +160,7 @@ AudioMixerController:
     - 82562335d9eed424883284c02cddf93c
     - a299ca6f5a7b9fd42bcdeee5c13b43c8
     - aa426d0d3046bf94896dfc8d0eede51a
+    - d6374bdf927d021409308a14413b62d0
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -154,6 +178,7 @@ AudioMixerGroupController:
   - {fileID: 3389724942253038878}
   - {fileID: -7367064134032212960}
   - {fileID: -1086702107464643057}
+  - {fileID: -4190928317929746122}
   - {fileID: 4786901215495796489}
   m_Volume: 22526846bfefc9d439a4bf2963f10e65
   m_Pitch: 4f4b33a0ba1111b4cb4571908b7689fa
@@ -191,6 +216,20 @@ AudioMixerSnapshotController:
     a973c776455edb94b84e7d6f5b7535bf: 0
     6a1277ade53aa1e41afc810d4d90da98: 0
   m_TransitionOverrides: {}
+--- !u!244 &2189429248467026882
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 70bb50f59cabd594b889e84ed861b007
+  m_EffectName: Attenuation
+  m_MixLevel: 179d5a671771a72478f27ebceb011cf7
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &3389724942253038878
 AudioMixerGroupController:
   m_ObjectHideFlags: 0

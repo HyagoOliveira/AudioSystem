@@ -13,6 +13,7 @@ namespace ActionCode.Audio
         [Range(0, maxVolume)] public uint SoundEffectsVolume;
         [Range(0, maxVolume)] public uint AmbientEffectsVolume;
         [Range(0, maxVolume)] public uint VoiceEffectsVolume;
+        [Range(0, maxVolume)] public uint FootstepVolume;
         [Range(0, maxVolume)] public uint GamepadVolume;
 
         private const uint maxVolume = 100;
@@ -22,7 +23,7 @@ namespace ActionCode.Audio
         /// </summary>
         /// <param name="volume">The volume amount.</param>
         public AudioData(uint volume = maxVolume) :
-            this(volume, volume, volume, volume, volume)
+            this(volume, volume, volume, volume, volume, volume)
         { }
 
         /// <summary>
@@ -32,11 +33,14 @@ namespace ActionCode.Audio
         /// <param name="soundEffectsVolume">The sound effects volume amount.</param>
         /// <param name="ambientEffectsVolume">The ambient effects volume amount.</param>
         /// <param name="voiceEffectsVolume">The voice effects volume amount.</param>
+        /// <param name="footstepVolume">The Footstep volume amount.</param>
+        /// <param name="gamepadVolume">The Gamepad volume amount.</param>
         public AudioData(
             uint backgroundVolume,
             uint soundEffectsVolume,
             uint ambientEffectsVolume,
             uint voiceEffectsVolume,
+            uint footstepVolume,
             uint gamepadVolume
         )
         {
@@ -44,6 +48,7 @@ namespace ActionCode.Audio
             SoundEffectsVolume = soundEffectsVolume;
             AmbientEffectsVolume = ambientEffectsVolume;
             VoiceEffectsVolume = voiceEffectsVolume;
+            FootstepVolume = footstepVolume;
             GamepadVolume = gamepadVolume;
         }
     }

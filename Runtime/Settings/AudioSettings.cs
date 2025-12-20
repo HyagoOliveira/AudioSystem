@@ -17,6 +17,8 @@ namespace ActionCode.Audio
         private AudioGroupSettings voiceEffectsGroup;
         [SerializeField, Tooltip("The Ambient Effects Audio Group.")]
         private AudioGroupSettings ambientEffectsGroup;
+        [SerializeField, Tooltip("The Footstep Audio Group.")]
+        private AudioGroupSettings footstepGroup;
         [SerializeField, Tooltip("The Gamepad Audio Group.")]
         private AudioGroupSettings gamepadGroup;
 
@@ -28,8 +30,9 @@ namespace ActionCode.Audio
         {
             backgroundGroup.Volume = data.BackgroundVolume;
             soundEffectsGroup.Volume = data.SoundEffectsVolume;
-            voiceEffectsGroup.Volume = data.AmbientEffectsVolume;
+            voiceEffectsGroup.Volume = data.VoiceEffectsVolume;
             ambientEffectsGroup.Volume = data.AmbientEffectsVolume;
+            footstepGroup.Volume = data.FootstepVolume;
             gamepadGroup.Volume = data.GamepadVolume;
         }
 
@@ -43,6 +46,8 @@ namespace ActionCode.Audio
             data.SoundEffectsVolume = soundEffectsGroup.Volume;
             data.VoiceEffectsVolume = voiceEffectsGroup.Volume;
             data.AmbientEffectsVolume = ambientEffectsGroup.Volume;
+            data.FootstepVolume = footstepGroup.Volume;
+            data.GamepadVolume = gamepadGroup.Volume;
         }
 
         /// <summary>
@@ -54,6 +59,8 @@ namespace ActionCode.Audio
             soundEffectsGroup.ResetVolume();
             voiceEffectsGroup.ResetVolume();
             ambientEffectsGroup.ResetVolume();
+            footstepGroup.ResetVolume();
+            gamepadGroup.ResetVolume();
         }
     }
 }
