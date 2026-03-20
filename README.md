@@ -1,7 +1,7 @@
-# Audio
+# Audio System
 
 * Audio scripts and presets.
-* Unity minimum version: **2018.3**
+* Unity minimum version: **6000.3**
 * Current version: **4.3.0**
 * License: **MIT**
 
@@ -44,12 +44,12 @@ will be available for you to install using the **Package Manager** windows.
 
 You will need a **Git client** installed on your computer with the Path variable already set. 
 
-- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/HyagoOliveira/Audio.git`
+- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/HyagoOliveira/AudioSystem.git`
 
 - You can also manually modify you `Packages/manifest.json` file and add this line inside `dependencies` attribute: 
 
 ```json
-"com.actioncode.audio":"https://github.com/HyagoOliveira/Audio.git"
+"com.actioncode.audio-system":"https://github.com/HyagoOliveira/AudioSystem.git"
 ```
 
 ---

@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// UI Slider component controlling the <see cref="AudioGroupSettings.Volume"/>.

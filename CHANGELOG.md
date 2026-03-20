@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+
+### Changed
+- Rename package to Audio System
+
 ## [4.3.0] - 2025-12-20
 ### Added
 - Footstep Group Settings
@@ -81,14 +85,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/Audio/compare/4.3.0...main
-[4.3.0]: https://github.com/HyagoOliveira/Audio/tree/4.3.0/
-[4.2.0]: https://github.com/HyagoOliveira/Audio/tree/4.2.0/
-[4.1.0]: https://github.com/HyagoOliveira/Audio/tree/4.1.0/
-[4.0.0]: https://github.com/HyagoOliveira/Audio/tree/4.0.0/
-[3.1.0]: https://github.com/HyagoOliveira/Audio/tree/3.1.0/
-[3.0.1]: https://github.com/HyagoOliveira/Audio/tree/3.0.1/
-[3.0.0]: https://github.com/HyagoOliveira/Audio/tree/3.0.0/
-[2.0.0]: https://github.com/HyagoOliveira/Audio/tree/2.0.0/
-[1.1.0]: https://github.com/HyagoOliveira/Audio/tree/1.1.0/
-[1.0.0]: https://github.com/HyagoOliveira/Audio/tree/1.0.0/
+[Unreleased]: https://github.com/HyagoOliveira/AudioSystem/compare/4.3.0...main
+[4.3.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.3.0/
+[4.2.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.2.0/
+[4.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.1.0/
+[4.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.0.0/
+[3.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/3.1.0/
+[3.0.1]: https://github.com/HyagoOliveira/AudioSystem/tree/3.0.1/
+[3.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/3.0.0/
+[2.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/2.0.0/
+[1.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/1.1.0/
+[1.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/1.0.0/

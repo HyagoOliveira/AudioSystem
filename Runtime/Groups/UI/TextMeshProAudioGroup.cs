@@ -2,7 +2,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// UI Text Mesh Pro component showing the <see cref="AudioGroupSettings.Volume"/>.

@@ -1,6 +1,6 @@
 {
-    "name": "ActionCode.Audio.Editor",
-    "rootNamespace": "ActionCode.Audio.Editor",
+    "name": "ActionCode.AudioSystem.Editor",
+    "rootNamespace": "ActionCode.AudioSystem.Editor",
     "references": [
         "GUID:f59d7605d4cbf89469c7b6e0071577a6"
     ],

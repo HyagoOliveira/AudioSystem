@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// Plays the AudioSource clip in loop after played the start sound.

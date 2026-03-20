@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// Scriptable Settings for Audio.

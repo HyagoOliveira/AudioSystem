@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// Data class for Audio.

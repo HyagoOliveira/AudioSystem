@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// Disables this GameObject after the audio clip ends.

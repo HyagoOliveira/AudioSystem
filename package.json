@@ -1,22 +1,22 @@
 {
-  "name": "com.actioncode.audio",
-  "displayName": "ActionCode-Audio",
+  "name": "com.actioncode.audio-system",
+  "displayName": "ActionCode-Audio System",
   "version": "4.3.0",
-  "unity": "2018.3",
+  "unity": "6000.3",
   "description": "This package contains Audio scripts and presets.",
   "keywords": [
     "audio",
     "presets"
   ],
   "category": "Audio",
-  "homepage": "https://github.com/HyagoOliveira/Audio#readme",
+  "homepage": "https://github.com/HyagoOliveira/AudioSystem#readme",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HyagoOliveira/Audio.git"
+    "url": "https://github.com/HyagoOliveira/AudioSystem.git"
   },
-  "documentationUrl": "https://github.com/HyagoOliveira/Audio#readme",
-  "changelogUrl": "https://github.com/HyagoOliveira/Audio/CHANGELOG.md",
+  "documentationUrl": "https://github.com/HyagoOliveira/AudioSystem#readme",
+  "changelogUrl": "https://github.com/HyagoOliveira/AudioSystem/CHANGELOG.md",
   "author": {
     "name": "Hyago Oliveira",
     "email": "hyagogow@gmail.com"

@@ -1,7 +1,7 @@
 ﻿#if UNITY_PARTICLE_SYSTEM
 using UnityEngine;
 
-namespace ActionCode.Audio
+namespace ActionCode.AudioSystem
 {
     /// <summary>
     /// Component used to play, stop, pause and resume both AudioSource and ParticleSystem components attached to this GameObject.
